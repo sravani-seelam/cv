@@ -1,0 +1,33 @@
+
+* {
+box-sizing: border-box;
+}
+
+.column {
+float: left;
+width: 70%;
+padding: 20px;
+height: 900px;
+}
+.col{
+float: left;
+ width:30%;
+ padding: 30px;
+height: 900px;
+}
+.index:after {
+content:"";
+display: table;
+clear: both;
+}
+.list {
+float: left;
+width: 33%;
+padding: 3px;
+height: 50px;
+}
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
